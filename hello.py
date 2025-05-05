@@ -6,3 +6,4 @@ print("new comment")
 def definitely_trigger_lint():
     unused_variable = 123  # <-- Pylint will flag this as an unused variable
     return 42
+print("helooooooo")
